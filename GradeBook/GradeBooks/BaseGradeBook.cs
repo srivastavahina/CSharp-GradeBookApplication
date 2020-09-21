@@ -116,19 +116,19 @@ namespace GradeBook.GradeBooks
             {
                 case 'A':
                     gpa = 4;
-                    return gpa;
+                    break;
                 case 'B':
                     gpa = 3;
-                    return gpa;
+                    break;
                 case 'C':
                     gpa = 2;
-                    return gpa;
+                    break;
                 case 'D':
                     gpa = 1;
-                    return gpa; 
+                    break; 
                 case 'F':
                     gpa = 0;
-                    return gpa;
+                    break;
             }
             if (IsWeighted && (studentType == StudentType.DualEnrolled || studentType == StudentType.Honors))
                 gpa++;
